@@ -28,6 +28,7 @@ generate_builder = false
 [[object]]
 name = "GUdev.Device"
 status = "generate"
+manual_traits = ["DeviceExtManual"]
     [[object.function]]
     name = "get_sysfs_attr_as_boolean_uncached"
     rename = "sysfs_attr_as_boolean_uncached"
